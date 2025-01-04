@@ -8,6 +8,16 @@ body {
   flex-direction: column;
   color: whitesmoke;
 }
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+nav a {
+  text-decoration: none;
+  margin: 20px;
+}
 .main {
   display: flex;
   flex-direction: column;
